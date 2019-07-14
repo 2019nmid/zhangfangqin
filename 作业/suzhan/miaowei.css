@@ -1,0 +1,341 @@
+.top{
+    height: 20px;
+    background-color: black;
+    width: 100%;
+}
+.top-l>ul>li a{
+    height: 10px;
+    width: 150px;
+    float: left;
+    color: antiquewhite;
+}
+.top-r>ul>li{
+    height: 20px;
+    width: 200px;
+    float: left;
+    color: antiquewhite;
+}
+.top-r>ul>li a{
+    color: antiquewhite
+}
+.top-r>ul>li a:hover{
+    color: yellow;
+}
+.top-c>li a:hover{
+    color: yellow;
+}
+/*顶栏完*/
+.ad{
+    height: 80px;
+    width: 100%px;
+    background:linear-gradient(rgb(204, 108, 108),rgb(219, 29, 29));
+}
+.ad>ul>li{
+    height: 70px;
+    width: 33.3333%;
+    float: left;
+}
+.bag{
+    color: aliceblue;
+}
+.check>a{
+    background-color: brown;
+    border:brown 1px solid;
+    color: yellow;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+.check>a:hover{
+    background-color: rgb(131, 11, 11);
+}
+.check>a:active{
+    color: red;
+}
+.ad>ul>:nth-child(2){
+    font-size: 40px;
+    font-family: "黑体";
+    color: #ffffff;
+}
+.f1{
+    margin-top: -6px;
+    margin-bottom: -10px;
+}
+.f2{
+    margin-top: 0px;
+}
+.search{
+    margin-top: 15px;
+}
+.search>input{
+    height: 28px;
+    width: 200px;
+    border-radius: 20px;
+}
+.search>button{
+    height: 28px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+/*搜索框完*/
+.top-nav{
+    height: 25px;
+    width: 100%;
+    background-color:brown;
+}
+.top-nav>ul>li a{
+    color:white;
+    float: left;
+    font-family: '宋体';
+    width: 11.111%;
+}
+.top-nav>ul>li a:hover{
+    color: yellow;
+}
+.top-nav>ul>li a:active{
+    color: brown;
+}
+/*页头完成*/
+.body{
+    height: 1300px;
+    width: 100%;
+    background: linear-gradient(rgb(66, 85, 66),white,white);
+    padding-top: 20px;
+}
+.wrap{
+    margin: 0 auto;
+    height: 1290px;
+    width: 80%;
+    background-color:#fff;
+    margin: 0 auto;
+    border: 2px solid rgb(177, 175, 175);
+    border-radius: 20px;
+    border-bottom: none;
+}
+.picture>a img{
+    height: 300px;
+    width: 99%;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid white;
+    margin-top: 3px;
+}
+.wrap-left{
+    height: 870px;
+    width: 275px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.left1{
+    width: 275px;
+    height: 350px;
+    background-color: rgba(250, 250, 195, 0.979);
+    border-radius: 10px;
+}
+.left1>ul>li{
+    height: 28px;
+    border-bottom: 1px solid white;
+    border-top: none;
+}
+
+.left1>ul>li a{
+    width: 300px;
+    font-size: 18px;
+    color: black;
+    font-family: "黑体";
+    font-weight: bolder;
+}
+.one{
+    background:linear-gradient(rgb(204, 108, 108),rgb(219, 29, 29));
+    border-radius: 10px 10px 0 0;
+}
+.left1>ul>li a:hover{
+    color: yellow;
+}
+.left2{
+    height: 350px;
+    width: 275px;
+    background-color: rgb(245, 245, 241);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.left2-one>pre{
+    font-size: 18px;
+    font-family: "heiti";
+    color: gray;
+}
+.search-join>input{
+    height: 28px;
+    width: 200px;
+}
+.left2>ul>li>button{
+    height: 28px;
+    width: 100px;
+    background: linear-gradient(rgb(204, 108, 108),rgb(219, 29, 29));
+    font-size: 15px;
+    font-family: "heiti";
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+}
+.Jion:hover{
+    color: yellow;
+}
+
+.relect1{
+    margin-left: -50px;
+}
+.relect2{
+    margin-left: -10px;
+}
+.relect4{
+    margin-left: 9px;
+}
+/*主页左边完成*/
+.right-top {
+    position: absolute;
+    left: 480px;
+    top: 480px;
+}
+.right-top>select{
+    height: 20px;
+    width: 100px;
+    border: 1px solid gray;
+}
+.right-top>span{
+    margin-left: 250px;
+    color: gray;
+    font-weight: bolder;
+}
+.right-top>a{
+    color: gray;
+}
+.right-top>a:hover{
+    color: red;
+}
+.wrap-right>h3{
+    position: absolute;
+    left:480px;
+    top:500px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "heiti"
+}
+.content{
+    position: absolute;
+    left: 480px;
+    top:550px;
+}
+.content>div{
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.name{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "heiti";
+    color: black;
+    font-weight: bolder;
+}
+.price{
+    font-family: "宋体";
+    margin-top: 0px;
+    color: red;
+}
+.page{
+    position: absolute;
+    left: 700px;
+    top:1150px;
+}
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid gray;
+}
+
+.pagination>li {
+    display: inline;
+    background-color: white;
+}
+
+.pagination>li a {
+    color: rgb(209, 54, 54);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination>li :hover{
+    background-color: red;
+    color:white;
+}
+.featured{
+    position: absolute;
+    left:500px;
+    top: 1200px;
+    font-family: "heiti";
+    font-size: 20px;
+    color: gray;
+}
+.menu{
+    height: 200px;
+    width: 840px;
+    position: absolute;
+    left: 480px;
+    top: 1235px;
+}
+.foot-top{
+    height: 70px;
+    width: 100%;
+    background:linear-gradient(rgb(16,2,0),rgb(48,5,3));
+}
+.foot-top>ul>li{
+    display: inline;
+}
+.foot-search>input{
+    height: 28px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.foot-search>button{
+    height: 28px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.foot-top>ul>li img{
+    margin-left: 100px;
+}
+.red{
+    height: 300px;
+    width: 100%;
+    background:linear-gradient(rgb(168,23,4),rgb(97,12,2))
+}
+.red>div{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 3px;
+}
+.red>div>ul>li a{
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    padding-top: 10px;
+}
+.Name{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.red>div>ul>.Name a{
+    font-size: 20px;
+    font-family: "kaiti";
+    color: #fff;
+}
+.red>div>ul>li :hover{
+    color: yellow;
+}
