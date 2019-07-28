@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="">
+        <meta name="Descroption" content="">
+        <title>Document</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                user-select: none;
+            }
+            .wrap{
+                position: relative;
+                width: 300px;
+                height: 40px;
+                margin: 200px auto;
+                background-color: #e8e8e8;
+                line-height: 40px;
+                text-align: center;
+                font-size: 14px;
+            }
+            .bg{
+                width: 0;
+                height: 100%;
+                background-color: #7ac23c;
+            }
+            .rect{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .slide{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 43px;
+                height: 38px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                cursor: pointer;
+            }
+        </style>
+    </head>    
+    <body>
+        <div class="wrap">
+            <div class="bg"></div>
+            <div class="rect">
+                拖动滑块验证
+                <div class="slide" style=""><img src="images/下右.png" alt=""></div>
+            </div>
+        </div>
+        <script>//写js
+            var oSlide = document.querySelector('.slide');
+            var oBg=document.querySelector('.bg');
+            var oRect=document.querySelector('.rect');
+            var oImage=document.querySelector('.slide.img');
+            var left=0;//全局变量
+            oSlide.onmousedown=function(e){//鼠标按下事件
+                var initX=e.clientX;//鼠标按下时X的坐标
+                console.log('按下鼠标',e.clientX);
+                document.onmousemove=function(e){
+                    var moveX=e.cliebtX;//鼠标移动后X的坐标
+                    left=moveX-initX;
+                    //判断左边边界
+                    if（left<0){
+                        left=0;
+                    }
+                    //判断一下右边
+                    if(left>300-43){
+                        left=300-43;
+                    }
+                    oBg.style.width=left+'px';//给绿色设置背景宽度
+                    oSlide.style.left=left+'px';//给css设置样式
+                    if(left>=300-43){
+                        console.log('到头',oRect,oImage);
+                        oRect.style.color='#fff';
+                    }
+                }
+            }
+            //鼠标抬起
+            document.onmouseup=function(){
+                document.onmousemove=null;//清楚鼠标移动事件
+                if(left<300-43){
+                    oBg.style.width=0;//给绿色设置背景宽度
+                    oSlide.style.left=0;//给css设置样式
+                }
+                console.log('抬起鼠标')；
+            }
+            console.log(document);
+        </script>
+    </body>
+</html>
