@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bilibili</title>
+    <style>
+        .hide{
+            display: none;
+        }
+	</style>
+	<link href="css.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="style.js"></script>
+</head>
+
+<body>	 	
+    <div id="top">
+	<ul class="top_bar">
+		<li><a href="" title="主站">主站</a></li>
+		<li><a href="" title="快来探索bilibili的音乐世界吧~">音频</a></li>
+		<li><a href="" title="游戏中心">游戏中心</a></li>
+		<li><a href="" title="直播">直播</a></li>
+		<li><a href="" title="会员购">会员购</a></li>
+		<li><a href="" title="漫画">漫画</a></li>
+		<li><a href="" title="BW">BW</a></li>
+		<li><a href="" title="">70年</a></li>
+	<ul class="xiazai">	<li><a href="" title="下载APP">下载APP</a></li></ul>
+	<ul class="lishi"><li><a href="" title="历史">历史</a></li></ul>
+	<ul class="tougao"><li><a href="" title="投稿">投稿</a></li></ul>
+	</ul>
+	</div>
+	<div id="bg">
+	    <img src="images/1-1.jpg" width="1218px" height="550px">
+	    <ul class="bg_1"><li>扫描二维码登录</li></ul>
+		<ul class="bg_3"><li>请使用</li></ul>
+		<ul class="bg_2"><li><a href="">哔哩哔哩客户端</a></li></ul>
+		<ul class="bg_4"><li>扫码登录</li></ul>
+		<ul class="bg_5"><li>或使用下载APP</li></ul>
+	</div>
+	<div id="xia">
+	<img src="images/2.png"  width="1218px" height="414px">
+	</div>
+	<ul class="text">
+			<form action="">
+			    <input class="zhanghao" type="text" value="你的手机号/邮箱"/>
+				<input class="mima" type="text" value="密码"/>
+				<a><input class="denglu" type="submit" value="登陆" onclick="hide"/></a>
+				<a href="#"><input class="zhuce" type="submit" value="注册"/></a>
+			</form>
+		</ul>
+    <div id="modal" ></div>
+    <div id="slideBar" class="hua">
+    <script type="text/javascript">
+        var dataList = ["0","1"];
+        var options = {
+            dataList: dataList,
+            success:function(){  
+                console.log("show");  
+            },
+            fail: function(){
+                console.log("fail");  
+            }
+        };
+        SliderBar("slideBar", options);
+		</script>
+
+	</div>
+</body>
+</html>

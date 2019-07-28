@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li{list-style-type:none;}
+.top_bar {position:absolute; top:12px;left:124px; width:800px;}
+.top_bar li{float:left;line-height: 2px;margin-right:4px;font-size:12px;}
+.top_bar a{float:left;color:#000000;text-decoration:none;}
+.top_bar a:hover{}
+
+.xiazai {position:absolute; top:0px;left:276px; width:800px;}
+.lishi {position:absolute;top:1px;left:820px;width:200px;font-size:14px;  }
+.tougao {position:absolute; top:0px;left:879px;width:200px;}
+.tougao a{ font-size:14px;color:#FFFFFF;}
+
+.bg_1 {position:absolute; top:410px;left:270px; width:140px;}
+.bg_1 li{font-size:18px;}
+.bg_2 {position:absolute; top:450px;left:308px; width:140px;}
+.bg_2 li{font-size:14px;}
+.bg_2 a{text-decoration:none;color: #00a1d6;}
+.bg_2 a:hover {color:#00c0ff;}
+.bg_3{position:absolute; top:450px;left:262px; width:140px;}
+.bg_3 li{font-size:14px;color:#717171;}
+.bg_4{position:absolute; top:470px;left:308px; width:140px;}
+.bg_4 li{font-size:14px;color:#717171;}
+.bg_5{position:absolute; top:490px;left:290px; width:140px;}
+.bg_5 li{font-size:14px;color:#717171;}
+
+.zhanghao {position:absolute; top:254px;left:668px; width:380px;height:30px;color:#6d6d6d;border:none;}
+.mima {position:absolute; top:322px;left:668px; width:380px;height:30px;color:#6d6d6d;border:none;}
+.denglu {position:absolute; top:422px;left:660px; width:180px;height:36px; background:none; border:none;outline:none;}
+.zhuce {position:absolute; top:422px;left:876px; width:180px;height:36px; background:none; border:none;outline:none;}
+
